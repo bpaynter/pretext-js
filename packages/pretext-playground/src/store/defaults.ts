@@ -17,6 +17,12 @@ export const DEFAULT_PRETEXT_SOURCE = `<pretext xml:lang="en-US" xmlns:xi="http:
 			<subsection xml:id="subsec">
 				<title>My Sub</title>
 				<p>The contents of the subsection</p>
+    				<p>Some math: 
+			        	<m>
+			        		\displaystyle\frac{1}{\sqrt{2\pi\sigma^2}}
+			        		\int_{-\infty}^\infty {e^{-\frac{(x-\mu)^2}{2\sigma^2}}\;dx}=1
+			        	</m>
+			        </p>
 			</subsection>
 			<conclusion>
 				<p>And stuff</p>
