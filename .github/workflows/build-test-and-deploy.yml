@@ -11,6 +11,7 @@ on:
     # use the create-pull-request even so that the CI is triggered even for PRs made from a github action
     repository_dispatch:
         types: [create-pull-request]
+    workflow_dispatch:
 
 # Sets permissions of the GITHUB_TOKEN to allow deployment to GitHub Pages
 permissions:
